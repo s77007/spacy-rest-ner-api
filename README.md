@@ -30,11 +30,11 @@ Based on the information, i have constructed basic API model that can be expande
 Implemented service using flask which provides simple micro service framework to implement API 
 Code demonstrate use of pandas dataframe to build data frame based on tokens data.
 This can be used for in-memory computation/calculations to improve processing speed. 
-Code contains comments for future imrpovements based on application requirements - Scalability, availability, cost-time vs accuracy etc.
+Code contains comments for future improvements based on application requirements - Scalability, availability, cost-time vs accuracy etc.
 
 
 • A short description of potential improvements
 I have used AWS infrastructure with AWS Lambda however Natural language processing may stretch lambda too far.
-Probably we can still use AWS infrastrcutue to host application as a container and also use other services efficiently:
-Client Authorisation can be improved by using AWS cognito along with S3 to store trained models as well as predicted result sets to be analysed by data scientists
+Probably we can still use AWS infrastructure to host application as a container and also use other services efficiently:
+Client Authorisation can be improved by using AWS cognito along with S3 to store trained models as well as predicted result sets to be analysed by data scientists.
 

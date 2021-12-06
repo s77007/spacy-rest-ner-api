@@ -14,17 +14,21 @@ Pre installation Requirements:
 Install Python 3.7 or above
 
 Open command prompt/terminal window and run following commands
+```
 >pip install spacy
 >spacy download en_core_web_sm
 >pip install flask
 >pip install flask_restful
+```
 
 • Restful API code: main.py
 run main.py using following command:
+```
 >python main.py
-
-Validate if server is running from local machine 
-\\>python main.py
+```
+Validate if server is running from local machine
+```
+>python main.py
  * Serving Flask app 'main' (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployme
@@ -35,7 +39,7 @@ nt.
  * Debugger is active!
  * Debugger PIN: 114-611-607
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-
+```
 Based on the information provided in test documentation this code demonstrates basic API model that can be expanded further to implement
 - Authentication
 - Other methods  
@@ -43,7 +47,7 @@ Based on the information provided in test documentation this code demonstrates b
 • Jupyter notebook for testing: Spacy_API_Test.ipynb
 Please follow instructions to run each cell
 Alternatively seperate python script can be run e.g: store following lines in a python file:
-
+```
 #-----------------------------------------------------------------------------------------------------------------
 import requests
 import json
@@ -59,6 +63,7 @@ APIEndPoint = "http://127.0.0.1:5000/"
 APIresponse = requests.post(APIEndPoint + "analyzetext/Apple is looking at buying U.K. startup for $1 billion")
 print(APIresponse.json())
 #-------------------------------------------------------------------------------------------------------------------
+```
 
 • A list of assumptions you made :
 - This API will receive a line of text 
